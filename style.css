@@ -1,0 +1,830 @@
+@import url(//db.onlinewebfonts.com/c/5795a47e252d16c82bb79fa354b224db?family=VK+Sans+Display);
+
+body {
+    margin: 0;
+    background-color: #edeef0;
+    font-family: "VK Sans Display"; src: url("//db.onlinewebfonts.com/t/5795a47e252d16c82bb79fa354b224db.eot");
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+}
+
+.logo {
+    margin-left: 440px;
+    margin-top: 14px;
+    float: left;
+}
+
+.search_button {
+    margin-left: 24px;
+    margin-top: 6px;
+    height: 30px;
+    width: 180px;
+    float: left;
+}
+
+.zalupa {
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+}
+
+.search {
+    padding-left: 33px;
+    margin-top: 3px;
+    height: 28px;
+    width: 204px;
+    outline: none;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20opacity%3D%22.92%22%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200H16V16H0z%22%2F%3E%3Cpath%20d%3D%22M6.5%201a5.5%205.5%200%200%201%204.383%208.823l3.896%203.9a.75.75%200%200%201-1.061%201.06l-3.895-3.9A5.5%205.5%200%201%201%206.5%201zm0%201.5a4%204%200%201%200%200%208%204%204%200%200%200%200-8z%22%20fill%3D%22%23818c99%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-color: #edeef0;
+}
+
+.push {
+    margin-left: 75px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+}
+
+.push img {
+    margin-left: 12px;
+    margin-top: 15px;
+}
+.push:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.audio_buttons {
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 50px;
+    width: 386px;
+    float: left;
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+}
+
+.audio_buttons:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.button_back {
+    margin-top: 14px;
+}
+
+.audio_title {
+    float: right;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-right: 15px;
+    margin-top: 17px;
+}
+
+.track {
+    height: 5px;
+}
+
+.kvadrat {
+    height: 50px;
+    width: 50px;
+    float: left;
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+}
+
+
+.kvadrat img {
+    margin-left: 12px;
+    margin-top: 14px;
+}
+
+.kvadrat:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.element {
+    height: 50px;
+    width: 70px;
+    float: left;
+}
+
+.element:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.profileimg {
+    margin-left: 10px;
+    margin-top: 9px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.galocka {
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+    margin-bottom: 12px;
+}
+
+.side_bar {
+    margin-left: 440px;
+    margin-top: 15px;
+    height: 350px;
+    float: left;
+}
+
+.side_bar a {
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.my_page {
+    width: 164px;
+    height: 30px;
+    margin-bottom: 6px;
+}
+
+.my_page svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.my_page:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.news {
+    padding-bottom: 16px;
+}
+
+.news svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.news:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.messenger {
+    padding-bottom: 16px;
+}
+
+.messenger svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.messenger:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.calls {
+    padding-bottom: 16px;
+}
+
+.calls svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.calls:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.friends {
+    padding-bottom: 16px;
+}
+
+.friends svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.friends:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.communities {
+    padding-bottom: 16px;
+}
+
+.communities svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.communities:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.music {
+    padding-bottom: 16px;
+}
+
+.music svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.music:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.videos {
+    padding-bottom: 16px;
+}
+
+.videos svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.videos:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.clips {
+    padding-bottom: 16px;
+}
+
+.clips svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.clips:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.games {
+    padding-bottom: 14px;
+}
+
+.games svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.games:hover {
+    background-color: rgba(154, 183, 209, 0.123);
+}
+
+.avatar {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.redaktirovat {
+    width: 164px;
+    height: 30px;
+    border: solid;
+    border-radius: 8px;
+    border-color: #fff;
+    background-color: #e5ebf1;
+    float: left;
+    margin-top: 10px;
+    padding-left: 60px;
+}
+
+.edit {
+    float: left;
+    padding-top: 4px;
+}
+
+.stats {
+    padding-top: 70px;
+    padding-left: 15px;
+}
+
+.stats svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.memories {
+    padding-left: 15px;
+    padding-top: 46px
+}
+
+.memories svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.my_questions {
+    padding-left: 15px;
+    padding-top: 46px
+}
+
+.my_questions svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.money_transfers {
+    padding-left: 15px;
+    padding-top: 46px
+}
+
+.money_transfers svg {
+    float: left;
+    padding-right: 5px;
+}
+
+.page_body {
+    display: block;
+    float: left;
+    margin-top: 15px;
+    width: 795px;
+    height: 1783px;
+}
+
+.user_bar{
+    float: left;
+    width: 230px;
+    height: 528px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.user_bar svg{
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+}
+
+.user_bar a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.page_info {
+    margin-left: 15px;
+    float: left;
+    width: 515px;
+    height: 210px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.page_owner {
+    float: left;
+    margin-right: 10px;
+    height: 25px;
+    width: 400px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.online_status {
+    color: #6d7179;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+}
+
+.page_info a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.status {
+    width: 500px;
+    height: 24px;
+    float: left;
+    padding-left: 15px;
+}
+
+.status:hover {
+    background-color: #edeef0;
+}
+
+.line {
+    float: left;
+    width: 515px;;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    border-top: solid 1px #edeef0;
+}
+
+.bday_date {
+    font-size: 15px;
+    color: #6d7179;
+    margin-top: 5px;
+    width: 400px;
+    height: 20px;
+    padding-left: 15px;
+    float: left;
+}
+
+.dr { 
+    float: left;
+    margin: 0;
+    width: 150px;
+}
+
+.may29 {
+    margin-bottom: 80px;
+    float: right;
+}
+
+.gorod {
+    font-size: 12.45px;
+    color: #6d7179;
+    float: left;
+    width: 140px;
+    height: 20px;
+    padding-left: 15px;
+}
+
+.musorka {
+    margin-top: 20px;
+    margin-right: 82px;
+    float: right;
+}
+
+.semeynoye_polojeniye {
+    font-size: 12.45px;
+    color: #6d7179;
+    padding-left: 15px;
+    margin: 0;
+    margin-top: 5px;
+    width: 350px;
+    height: 20px;
+    float: left
+}
+
+.ne_jenat {
+    padding-right: 82px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+.counts {
+    margin-left: 15px;
+    margin-top: 2px;
+    display: block;
+    float: left;
+    width: 515px;
+    height: 70px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.counter {
+    display: inline-block;
+    position: center;
+    margin-top: 5px;
+    margin-left: 17px;
+    cursor: pointer;
+    padding: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.photo_upload {
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    width: 515px;
+    height: 72px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.photo_upload a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.photo_upload svg {
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+    padding-left: 155px;
+    padding-right: 5px;
+    float: left;
+}
+
+.upload {
+    padding-top: 25px;
+}
+
+.post_write {
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    width: 515px;
+    height: 52px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.post_write svg {
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+}
+
+.avatarka_postwrite {
+    padding-top: 13px;
+    padding-left: 15px;
+    float: left;
+}
+
+.avatarka_postwrite img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.cto_novogo {
+    padding-left: 12px;
+    height: 30px;
+    width: 275px;
+    float: left;
+}
+
+.post_write svg {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.cto {
+    height: 46px;
+    width: 250px;
+    outline: none;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.wall_tabs {
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    float: left;
+    width: 516px;
+    height: 52px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.wall_tabs a{
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.no_posts {
+    padding-top: 17px;
+}
+
+.gift {
+    margin-top: 15px;
+    float: left;
+    width: 230px;
+    height: 140px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.gift img {
+    float: left;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.gift_header {
+    cursor: pointer;
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 17px;
+}
+
+.header_text {
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.count1 {
+    color: #6d7179;
+    float: left;
+    padding-top: 15px;
+    padding-left: 13px;
+}
+
+.posts {
+    text-align: center;
+    margin-left: 15px;
+    float: left;
+    width: 516px;
+    height: 159px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.posts svg {
+    padding-top: 30px;
+    width: 510px;
+    height: 56px;
+    filter: invert(42%) sepia(4%) saturate(1708%) hue-rotate(173deg) brightness(97%) contrast(82%);
+}
+
+.users_friends {
+    margin-top: 12px;
+    float: left;
+    width: 230px;
+    height: 210px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.user_friends_header {
+    cursor: pointer;
+    float: left;
+    padding-right: 90px;
+    padding-bottom: 17px;
+}
+
+.people {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 6px;
+    padding: 7px;
+    width: 55px;
+    float: left;
+}
+
+.people img {
+    border-radius: 50%;
+}
+
+.friends_name {
+    font-size: 12.5px;
+    list-style: none;
+    text-decoration: none;
+    color: #2a5885;
+}
+
+.follows { 
+    margin-top: 15px;
+    margin-right: 350px;
+    float: left;
+    width: 230px;
+    height: 330px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.follows_header {
+    cursor: pointer;
+    float: left;
+    padding-right: 90px;
+    padding-bottom: 15px;
+}
+
+.groups {
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 7px;
+    padding-bottom: 5px;
+    width: 200px;
+    float: left;
+}
+
+.groups img {
+    height: 45px;
+    width: 45px;
+    float: left;
+    border-radius: 50%;
+}
+
+.group_info {
+    padding-left: 10px;
+    padding-right: 35px;
+    padding-top: 12px;
+    padding-bottom: 28px;
+    float: left;
+}
+
+.group_name a {
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color:#2a5885;
+}
+
+.user_videos {
+    margin-top: 15px;
+    margin-right: 350px;
+    float: left;
+    width: 230px;
+    height: 195px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.user_videos img {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.user_videos a {
+    padding-left: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #2a5885;
+}
+
+.user_audios {
+    margin-top: 15px;
+    margin-right: 350px;
+    display: block;
+    float: left;
+    width: 230px;
+    height: 210px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+.tracks {
+    font-size: 12px;
+    margin-left: 6px;
+    padding: 7px;
+    width: 210px;
+    height: 250px;
+    float: left;
+}
+
+.tracks img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    float: left;
+    border-radius: 25%;
+}
+
+.track_info {
+    width: 100px;
+    height: 35px;
+    padding-left: 15px;
+    padding-right:50px;
+    padding-top: 10px;
+    margin-bottom: 9px;
+    float: left;
+}
+
+.track_name {
+    width: 160px;
+}
+
+.track_title {
+    width: 160px;
+}
+
+.track_info a {
+    font-size: 14.5px;
+    list-style: none;
+    text-decoration: none;
+    color:#2a5885;
+}
+
+
